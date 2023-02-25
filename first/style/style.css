@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    min-width: auto;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+/* NAV BAR STYLING */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(39, 122, 199);
+    color: rgb(29, 29, 29);
+    min-height: 60px;
+}
+
+.navbar li {
+    list-style: none;
+    line-height: 55px;
+}
+
+#logo {
+    font-size: 40px;
+}
+
+/* FIN --- NAV BAR STYLING */
+
+.container {
+    margin: 25px;
+}
+
+
+/* FIRST TITLE */
+.f-title {
+    background: url(/first/img/codding.png) no-repeat center top;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    line-height: 400px;
+}
+
+.f-title h1 {
+    color: white;
+    text-shadow: rgb(255, 5, 5) 0 0 50px;
+}
+
+/* FIN --- FIRST TITLE */
+
+/* INFORMATION */
+
+.information {
+    width: 95%;
+    background-color: rgb(18, 43, 71);
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: aliceblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 10px black;
+}
+
+.textt {
+    text-align: center;
+    padding: 7% 20px 20px;
+}
+
+.information img {
+    width: 600px;
+    height: 450px;
+}
+
+/* FIN --- INFORMATION */
+
+/* FIRST PROJECT */
+
+.first-project {
+    width: 95%;
+    background-color: rgb(18, 43, 71);
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: aliceblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 10px black;
+}
+
+.title {
+    background: url(/first/img/codding.png) no-repeat center top;
+    width: 1500px;
+    height: 250px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+/* FIN --- FIRST PROJECT */

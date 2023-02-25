@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mandali', sans-serif;
+}
+
+body {
+    background: url(/informationPage/source/codding.png) center top;
+}
+
+/* NAVEGATION BAR */
+.navbar {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(16, 44, 68);
+    color: aliceblue;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    display: none;
+}
+
+.navbar li:hover > ul {
+    display: flex;
+    width: 70px;
+    padding: 10px;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: rgb(16, 44, 68);
+}
+
+
+/* CONTAINER */
+.container {
+    margin: 10px;
+    background: #D8D8D8;
+    padding: 15px;
+}
+
+#contain
+
+/* TITLE */
+.maintitle {
+    width: 95%;
+    height: 380px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(/informationPage/source/codding.png) no-repeat center top;
+    line-height: 380px;
+    margin-bottom: 25px;
+}
+
+.maintitle h1 {
+    color: aliceblue;
+    text-shadow: 0 0 35px red;
+}
+
+/* INFORMATION */
+.information-f {
+    margin-top: 25px;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(16, 44, 68);
+    color: aliceblue;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.information-f p {
+    width: 65%;
+}
+
+.information-f img {
+    width: 250px;
+    height: 230px;
+}
+
+
+/* --> ITEMS */
+.submenu {
+    width: 99%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: rgb(16, 44, 68);
+}
+
+.submenu h2 button {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 12px black;
+    background-color: gray;
+    color: rgb(34, 65, 94);
+}
+
+.subitem {
+    max-width: 60%;
+    min-width: 50%;
+    margin: 0 auto;
+    background-color: rgb(77, 77, 77);
+    border-radius: 25px;
+    box-shadow: 7px 7px 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.subitem img {
+    padding: 15px;
+    width: 190px;
+    height: 190px;
+}
+
+.subitem p {
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* REFERENCES */
+
+.references {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.references b {
+    display: block;
+    color: gray;
+    padding: 10px;
+}
